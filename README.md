@@ -76,3 +76,5 @@ Selected the virtual network Lab2-Vnet that was created and clicked review + cre
 <img width="777" height="301" alt="image" src="https://github.com/user-attachments/assets/24cde7d6-3b33-4714-92d9-5476b26f6d78" />
 
 Both Windows virtual machine and linux virtual machine created successfully
+
+<h2>Observing ICMP traffic & configuring Firewall/Network Security Group</h2>
