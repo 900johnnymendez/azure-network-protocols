@@ -51,7 +51,7 @@ Username: labuser Password: Cyberlab123! and then clicked next
 
 <img width="528" height="626" alt="image" src="https://github.com/user-attachments/assets/6d8b4ad9-1bdc-4041-a3cd-a783790da44d" />
 
-Clicked on create new virtual network and named it Lab2-Vnet and then clicked review + create to create the virtual machine and the virtual network.
+Clicked on create new virtual network and named it Lab2-Vnet and then clicked review + create to create the Windows virtual machine and the virtual network.
 
 <img width="462" height="248" alt="image" src="https://github.com/user-attachments/assets/4a3a1665-9606-4dd9-b4da-a58846edd693" />
 
@@ -61,3 +61,18 @@ To create another virtual machine clicked on create new Azure virtual machine
 
 Selected RG-Network-Activities Resource group and East US 2 region. Named the virtual machine linux-vm
 
+<img width="612" height="437" alt="image" src="https://github.com/user-attachments/assets/4e3fc219-cccc-4f60-9e57-8dc316fe5e15" />
+
+For the image selected Ubuntu Server 22.04 LTS and chose Standard size
+
+<img width="514" height="218" alt="image" src="https://github.com/user-attachments/assets/d2b64379-b3ed-45ab-a3ae-8e006ebe6d3c" />
+
+Username: labuser Password: Cyberlab123! and then clicked next
+
+<img width="591" height="630" alt="image" src="https://github.com/user-attachments/assets/14b33971-4db6-4a4b-a939-397bb6e51296" />
+
+Selected the virtual network Lab2-Vnet that was created and clicked review + create to create the linux virtual machine
+
+<img width="777" height="301" alt="image" src="https://github.com/user-attachments/assets/24cde7d6-3b33-4714-92d9-5476b26f6d78" />
+
+Both Windows virtual machine and linux virtual machine created successfully
