@@ -33,7 +33,31 @@ Named the Resource Group RG-Network-Activities, selected West US 2 Region and cl
 
 Resource Group created successfully
 
-<img width="468" height="211" alt="image" src="https://github.com/user-attachments/assets/2d6360b2-3a19-4d0b-8ca3-436170d07187" />
+<img width="394" height="257" alt="image" src="https://github.com/user-attachments/assets/658ff75c-1143-4191-b434-b39115d6193a" />
 
-Clicked create Virtual Machine
+Clicked create Azure virtual machine
+
+<img width="526" height="537" alt="image" src="https://github.com/user-attachments/assets/0e9a2963-451c-42f3-ae68-154d71d8ddc7" />
+
+Selected RG-Network-Activities Resource group, named the virtual machine windows-vm and selected East US 2 reigion
+
+<img width="521" height="423" alt="image" src="https://github.com/user-attachments/assets/b72706f2-89df-4132-9da5-7aeb72d83e81" />
+
+For the image selected Windows 10 Pro, version 22H2 and selected Standard size
+
+<img width="525" height="635" alt="image" src="https://github.com/user-attachments/assets/5416ea52-6933-4b63-8f96-998bcc2aab02" />
+
+Username: labuser Password: Cyberlab123! and then clicked next
+
+<img width="528" height="626" alt="image" src="https://github.com/user-attachments/assets/6d8b4ad9-1bdc-4041-a3cd-a783790da44d" />
+
+Clicked on create new virtual network and named it Lab2-Vnet and then clicked review + create to create the virtual machine and the virtual network.
+
+<img width="462" height="248" alt="image" src="https://github.com/user-attachments/assets/4a3a1665-9606-4dd9-b4da-a58846edd693" />
+
+To create another virtual machine clicked on create new Azure virtual machine
+
+<img width="538" height="535" alt="image" src="https://github.com/user-attachments/assets/0cabc3e1-7c6c-4e72-bc33-0e7bf3a6e093" />
+
+Selected RG-Network-Activities Resource group and East US 2 region. Named the virtual machine linux-vm
 
