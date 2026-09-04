@@ -21,26 +21,19 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Creating Virtual Machines</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<img width="470" height="201" alt="image" src="https://github.com/user-attachments/assets/1e4f0267-5ff9-4485-84e1-b170a3303827" />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+In Microsoft Azure clicked create new Resource Group
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<img width="503" height="635" alt="image" src="https://github.com/user-attachments/assets/e7753256-081c-421e-84bf-e15fae7ae8d5" />
+
+Named the Resource Group RG-Network-Activities, selected West US 2 Region and clicked review + create
+
+<img width="606" height="254" alt="image" src="https://github.com/user-attachments/assets/184bdf42-0f4d-47f7-8c17-842779ffa21b" />
+
+Resource Group created successfully
+
+<img width="468" height="211" alt="image" src="https://github.com/user-attachments/assets/2d6360b2-3a19-4d0b-8ca3-436170d07187" />
+
+Clicked create Virtual Machine
+
