@@ -78,3 +78,43 @@ Selected the virtual network Lab2-Vnet that was created and clicked review + cre
 Both Windows virtual machine and linux virtual machine created successfully
 
 <h2>Observing ICMP traffic & configuring Firewall/Network Security Group</h2>
+
+<img width="605" height="353" alt="image" src="https://github.com/user-attachments/assets/dc5fd9e4-f3cb-4fa6-af70-e66e4e81014b" />
+
+In Azure clicked on windows-vm Virtual machine and copied windows-vm Public IP address to connect to the virtual machine using Remote Desktop Connection
+
+<img width="340" height="59" alt="image" src="https://github.com/user-attachments/assets/404a8b09-1a15-40f6-a8e7-2d3b757cd187" />
+
+Clicked start menu and searched for Remote Desktop Connection
+
+<img width="405" height="250" alt="image" src="https://github.com/user-attachments/assets/54be22e4-7cf3-4f9c-8be7-bc8577dc414e" />
+
+Pasted windows-vm Public IP address in Remote Desktop Connection and clicked connect
+
+---------image-----
+
+Typed the username and password used to create the virtual machine (username: labuser  password: Cyberlab123!) and then clicked OK to connect
+
+<img width="817" height="412" alt="image" src="https://github.com/user-attachments/assets/0edc2efe-3b26-47f8-956b-bbf72e668ca7" />
+
+Once logged in, downloaded Wireshark in Microsoft Edge to see network traffic happening
+
+<img width="733" height="416" alt="image" src="https://github.com/user-attachments/assets/53025819-5cb5-4ed8-95e1-b3e478f68175" />
+
+Once downloaded, opened the file to open Wireshark Setup and clicked next
+
+<img width="737" height="415" alt="image" src="https://github.com/user-attachments/assets/ec42de33-ba3a-43f1-a611-171efad0c379" />
+
+Clicked next
+
+<img width="737" height="413" alt="image" src="https://github.com/user-attachments/assets/6d5b162e-35a9-43ac-b6e6-a657ddf60a6c" />
+
+Clicked next
+
+<img width="735" height="415" alt="image" src="https://github.com/user-attachments/assets/3afb0dbd-1eae-4470-b290-ff2cfd3f6df8" />
+
+Clicked install
+
+<img width="513" height="227" alt="image" src="https://github.com/user-attachments/assets/c8faaba3-1a79-4104-b5a9-980084b6f0ec" />
+
+When finished installing, opened Wireshark by clicking start menu and searched for Wireshark
