@@ -153,6 +153,24 @@ Back in Powershell typed ping 10.0.0.5 to ping to the linux-vm from the windows-
 
 <img width="978" height="270" alt="image" src="https://github.com/user-attachments/assets/81c9dfa3-5452-4caf-a7ac-918d28613e62" />
 
-The request shows its from the private IP address of the windows-vm (10.0.0.4) to the destination which is the linux-vm that has a private IP address of 10.0.0.5
+The ping request shows its from the private IP address of the windows-vm (10.0.0.4) to the destination which is the linux-vm that has a private IP address of 10.0.0.5
 
+<img width="757" height="664" alt="image" src="https://github.com/user-attachments/assets/a3b7c7c6-399a-41cc-8680-675a4a068c67" />
 
+Clicked on one of the network traffic that was captured in Wireshark and clicked on Ethernet ||. There it shows the source and destination's Mac address. The source Mac address is the windows-vm mac address and the destination Mac address is the linux-vm's mac address.
+
+<img width="504" height="483" alt="image" src="https://github.com/user-attachments/assets/a5d76a6b-f1bf-46b3-a3e1-e14c208c8e42" />
+
+In Powershell typed ipconfig /all
+
+<img width="1165" height="639" alt="image" src="https://github.com/user-attachments/assets/38d26ded-46db-4d8c-b35a-c529b7c3d9ba" />
+
+The physical address shown in Powershell is the mac address for the windows-vm currently in use, and it shows in the source mac address in Wireshark because the ping came from the windows-vm.
+
+<img width="1169" height="661" alt="image" src="https://github.com/user-attachments/assets/4b7498d1-1cc0-4875-a6fb-709277051715" />
+
+The windows-vm Private IP address 10.0.0.4 shown in Powershell is shown in Wireshark under Internet Protocol in the source address.
+
+<img width="757" height="666" alt="image" src="https://github.com/user-attachments/assets/bd5aef83-b990-47e8-a88a-d4a563a492bc" />
+
+The destination address 10.0.0.5 is the linux-vm's Private IP address.
