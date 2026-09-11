@@ -194,3 +194,11 @@ Typed ping 10.0.0.5 -t to ping the linux-vm nonstop
 <img width="891" height="673" alt="image" src="https://github.com/user-attachments/assets/85a76cc4-3cd3-45cf-abf6-948621700fbe" />
 
 Powershell shows the nonstop pings to the linux-vm and Wireshark is capturing all of the nonstop pings happening.
+
+<img width="370" height="267" alt="image" src="https://github.com/user-attachments/assets/fde90b2f-52df-4d75-9a8f-88d8ba0a9e1d" />
+
+In Microsoft Azure clicked on linux-vm
+
+<img width="646" height="314" alt="image" src="https://github.com/user-attachments/assets/dcf16b5a-b236-4e01-bbbd-f4977373f6f4" />
+
+Clicked on Network settings under Networking. Under Network Security Group clicked on linux-vm-nsg
