@@ -202,3 +202,35 @@ In Microsoft Azure clicked on linux-vm
 <img width="646" height="314" alt="image" src="https://github.com/user-attachments/assets/dcf16b5a-b236-4e01-bbbd-f4977373f6f4" />
 
 Clicked on Network settings under Networking. Under Network Security Group clicked on linux-vm-nsg
+
+<img width="435" height="326" alt="image" src="https://github.com/user-attachments/assets/40c5f7cb-3d75-4a6e-80b4-49098bc72d3b" />
+
+Clicked on Inbound Security Rules under Settings and clicked Add.
+
+<img width="888" height="594" alt="image" src="https://github.com/user-attachments/assets/107df7c2-6587-440b-b500-56d4bf0bc078" />
+
+For the Source selected Any, that comes from anywhere. Selected any Destination. For Destination Port ranges typed an asterisk meaning any because icmp does not use a port. Under Protocol selected ICMPv4 since ping uses ICMP protocol and clicked Deny action. Set the priority to 290 to make it the first rule to be evaluated first and then clicked Add.
+
+<img width="824" height="183" alt="image" src="https://github.com/user-attachments/assets/13e6353b-1e3f-4c91-9c8f-7d8399a6e767" />
+
+Security Rule shows ICMP traffic from any source to any destination will be denied.
+
+<img width="463" height="483" alt="image" src="https://github.com/user-attachments/assets/bcf8d26a-0a8d-49b9-9b40-3961e121b9d8" />
+
+With the Security Rule in effect, the pings in Powershell will say request timed out because the linux-vm is now ignoring those requests coming from the windows-vm.
+
+<img width="957" height="374" alt="image" src="https://github.com/user-attachments/assets/f8202ce4-3771-47dc-b144-e358ca1540ad" />
+
+In Wireshark there are only requests from the windows-vm saying no response found and no replies from the linux-vm because the firewall is blocking those requests.
+
+<img width="854" height="282" alt="image" src="https://github.com/user-attachments/assets/cc7f2da7-9c16-4eec-941d-b5c0121feb55" />
+
+Clicked delete and clicked yes to delete the Security Rule that was created.
+
+<img width="1080" height="586" alt="image" src="https://github.com/user-attachments/assets/87f18cce-f0d4-4c0b-a5e0-dab759db85b7" />
+
+Now in Powershell there are replies from the linux-vm and in Wireshark it also captured replies.
+
+<img width="513" height="484" alt="image" src="https://github.com/user-attachments/assets/5eec566c-7dbb-4912-b296-83b4f1064dd0" />
+
+Pressed ctrl + c to stop ping activity and closed Wireshark.
