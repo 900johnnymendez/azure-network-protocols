@@ -178,3 +178,19 @@ The destination address 10.0.0.5 is the linux-vm's Private IP address.
 <img width="1182" height="639" alt="image" src="https://github.com/user-attachments/assets/42d4f634-c512-4158-9949-17406705147a" />
 
 Clicked on Internet Message Control Protocol and clicked on Data. On the right you can see the payload or the actual chunk of data that was sent in the ping which starts with abcdefg
+
+<img width="901" height="341" alt="image" src="https://github.com/user-attachments/assets/61aebf5c-b541-4837-9a04-6f800fa0db43" />
+
+Clicked on ping reply packet from the linux-vm
+
+<img width="444" height="307" alt="image" src="https://github.com/user-attachments/assets/c1ae42fc-50d7-4bb2-ae2d-82f7dc2829ce" />
+
+Clicked on Internet Protocol and there shows the reply source from the linux-vm (10.0.0.5) to the destination windows-vm (10.0.0.4)
+
+<img width="703" height="483" alt="image" src="https://github.com/user-attachments/assets/e283a846-92ec-4026-a119-f9f8422a6169" />
+
+Typed ping 10.0.0.5 -t to ping the linux-vm nonstop 
+
+<img width="891" height="673" alt="image" src="https://github.com/user-attachments/assets/85a76cc4-3cd3-45cf-abf6-948621700fbe" />
+
+Powershell shows the nonstop pings to the linux-vm and Wireshark is capturing all of the nonstop pings happening.
