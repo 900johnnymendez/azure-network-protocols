@@ -174,3 +174,7 @@ The windows-vm Private IP address 10.0.0.4 shown in Powershell is shown in Wires
 <img width="757" height="666" alt="image" src="https://github.com/user-attachments/assets/bd5aef83-b990-47e8-a88a-d4a563a492bc" />
 
 The destination address 10.0.0.5 is the linux-vm's Private IP address.
+
+<img width="1182" height="639" alt="image" src="https://github.com/user-attachments/assets/42d4f634-c512-4158-9949-17406705147a" />
+
+Clicked on Internet Message Control Protocol and clicked on Data. On the right you can see the payload or the actual chunk of data that was sent in the ping which starts with abcdefg
