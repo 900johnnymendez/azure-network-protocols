@@ -118,3 +118,41 @@ Clicked install
 <img width="513" height="227" alt="image" src="https://github.com/user-attachments/assets/c8faaba3-1a79-4104-b5a9-980084b6f0ec" />
 
 When finished installing, opened Wireshark by clicking start menu and searched for Wireshark
+
+<img width="424" height="248" alt="image" src="https://github.com/user-attachments/assets/e8f50cc6-221b-47b5-842f-445933f7d7b7" />
+
+Once opened, clicked on Ethernet
+
+<img width="372" height="214" alt="image" src="https://github.com/user-attachments/assets/f543e219-0522-45b1-a224-37e989b45306" />
+
+Clicked on the blue shark fin icon
+
+<img width="773" height="377" alt="image" src="https://github.com/user-attachments/assets/61e1d20d-b0fd-4e74-8e48-6b9235263985" />
+
+All the network traffic that happens in the background will show
+
+<img width="530" height="376" alt="image" src="https://github.com/user-attachments/assets/7800d325-9d39-4a74-853d-cb669bac6c95" />
+
+Where it says No. it shows the number of packets being sent to and from the virtual machine
+
+<img width="453" height="188" alt="image" src="https://github.com/user-attachments/assets/b55afbd4-8570-4b2e-9406-994b1fec2ee5" />
+
+Filtered for icmp traffic by typing icmp in the search and pressed enter
+
+<img width="232" height="245" alt="image" src="https://github.com/user-attachments/assets/bc10768b-680c-4ff8-be5f-3c08d9b844bc" />
+
+Opened Powershell by clicking start and searching for Powershell
+
+<img width="585" height="249" alt="image" src="https://github.com/user-attachments/assets/445764ee-b8c8-4155-b84f-c439525b74ac" />
+
+Copied the linux vm's Private IP address 10.0.0.5
+
+<img width="1179" height="652" alt="image" src="https://github.com/user-attachments/assets/07055db3-106c-4be9-8d8b-2df0500564e8" />
+
+Back in Powershell typed ping 10.0.0.5 to ping to the linux-vm from the windows-vm and Powershell shows 4 events from the linux-vm and Wireshark shows 8 events. Powershell shows the 4 replies from the linux-vm but Wireshark shows 8 events because it captured both the requests from the windows-vm and the replies from the linux-vm.
+
+<img width="978" height="270" alt="image" src="https://github.com/user-attachments/assets/81c9dfa3-5452-4caf-a7ac-918d28613e62" />
+
+The request shows its from the private IP address of the windows-vm (10.0.0.4) to the destination which is the linux-vm that has a private IP address of 10.0.0.5
+
+
