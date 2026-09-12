@@ -307,7 +307,36 @@ Typed hostname to check if logged out of the linux-vm successfully
 
 <img width="1113" height="348" alt="image" src="https://github.com/user-attachments/assets/9de55219-80d6-4526-9cc9-82b09742acd9" />
 
-In the red it shows a RST or a reset packet was sent from the wiwndows-vm(10.0.0.4) to the linux-vm(10.0.0.5) to kill the connection on port 22.
+In the red it shows a RST or a reset packet was sent from the wiwndows-vm(10.0.0.4) to the linux-vm(10.0.0.5) to kill the connection on port 22. Closed Wireshark and Powershell.
 
+<img width="594" height="670" alt="image" src="https://github.com/user-attachments/assets/a6b930fc-1403-4510-bdc7-acfebbecbcbf" />
 
+Opened Powershell and opened Wireshark. Clicked on Ethernet and started the network capture by clicking on the blue fin icon.
 
+<img width="876" height="514" alt="image" src="https://github.com/user-attachments/assets/11720477-623a-4a42-b230-796d1583bce8" />
+
+Opened notepad and typed ipconfig /release ipconfig /renew to create a script and run it in powershell to automatically release all of the IP addresses and to automatically request for a new IP address from DHCP.
+
+<img width="232" height="167" alt="image" src="https://github.com/user-attachments/assets/fb0f37a6-bb2f-4229-853e-ec6bbc4d0a87" />
+
+Clicked on file, save 
+
+<img width="578" height="365" alt="image" src="https://github.com/user-attachments/assets/24530b17-21e4-4a6e-a3ec-c0db50323d2b" />
+
+Save in This PC > Windows (C:) > ProgramData. Named the file dhcp.bat and saved as all files type.
+
+<img width="324" height="112" alt="image" src="https://github.com/user-attachments/assets/44a5f7f2-a2ff-4ad2-9e30-61df83e72a62" />
+
+Back in Wireshark filtered for DHCP traffic by typing udp.port == 67 || udp.port == 68
+
+<img width="681" height="654" alt="image" src="https://github.com/user-attachments/assets/86710eb9-7660-475c-9dbd-bc974d8d8f1c" />
+
+In Powershell typed cd C:/programdata and hit enter. Typed ls to see the list and dhcp.bat appears.
+
+<img width="684" height="661" alt="image" src="https://github.com/user-attachments/assets/6cddf576-fc3d-4bb4-a1fb-467707984168" />
+
+Typed ./dhcp.bat and hit enter for Powershell to run the script
+
+<img width="1028" height="185" alt="image" src="https://github.com/user-attachments/assets/0a881bf5-6781-4275-b8db-d4bfbef62f09" />
+
+In Wireshark the network traffic was captured. The release packet was sent from the windows-vm (10.0.0.4) to the DHCP Server
