@@ -273,3 +273,41 @@ The prompt changed to labuser@linux-vm which shows connection to the linux-vm wa
 
 Typed id and it shows the username (labuser). Typed hostname and it shows the virtual machine's name (linux-vm). Typed uname -a and it shows details about the operating system.
 
+<img width="1181" height="656" alt="image" src="https://github.com/user-attachments/assets/631a7084-bd65-4ef5-9140-6acea41a8f06" />
+
+Typing even a single keystroke will cause Wireshark to capture it because traffic gets sent over the network by ssh. Every single keystroke gets sent to the linux-vm terminal and Wireshark captures it.
+
+<img width="948" height="663" alt="image" src="https://github.com/user-attachments/assets/6349bd44-ce10-4645-ac68-7f7eb25a8d7a" />
+
+Clicked on a packet and under SSH Protocol > SSH version 2 but you cant see the actual payload or chunk of data being sent because it is encrypted.
+
+<img width="537" height="469" alt="image" src="https://github.com/user-attachments/assets/dd7bd9a9-7f17-45ea-9691-157218ff4378" />
+
+Clicked on a packet that was from the windows-vm(10.0.0.4). Under Transmission Control Protocol there is the source port number and Destination port is 22 because ssh uses tcp port 22 to communicate.
+
+<img width="538" height="455" alt="image" src="https://github.com/user-attachments/assets/ac1e8a5a-37f9-4f81-b17b-17b8c71d4c0d" />
+
+Clicked on a packet from the linux-vm(10.0.0.5) and clicked Transmission Control Protocol. The source port is 22 and the Destination port is the windows-vm source port which shows that a packet is being sent to the windows-vm.
+
+<img width="910" height="483" alt="image" src="https://github.com/user-attachments/assets/87f8d25a-3403-4625-853b-3cab9b0ce74a" />
+
+In Powershell typed touch file.txt to create a file on the linux machine.
+
+<img width="912" height="488" alt="image" src="https://github.com/user-attachments/assets/a66c8baf-c8f3-4ae8-ba04-7555e3dea9e4" />
+
+Typed ls and it shows that the file was created
+
+<img width="912" height="483" alt="image" src="https://github.com/user-attachments/assets/dbc2b62c-d595-46cd-98f3-e6cde018db7a" />
+
+In Powershell typed exit to exit the SSH connection 
+
+<img width="911" height="486" alt="image" src="https://github.com/user-attachments/assets/c5e46fa1-5d86-4f38-83f6-968869ad33e9" />
+
+Typed hostname to check if logged out of the linux-vm successfully
+
+<img width="1113" height="348" alt="image" src="https://github.com/user-attachments/assets/9de55219-80d6-4526-9cc9-82b09742acd9" />
+
+In the red it shows a RST or a reset packet was sent from the wiwndows-vm(10.0.0.4) to the linux-vm(10.0.0.5) to kill the connection on port 22.
+
+
+
