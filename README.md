@@ -234,3 +234,42 @@ Now in Powershell there are replies from the linux-vm and in Wireshark it also c
 <img width="513" height="484" alt="image" src="https://github.com/user-attachments/assets/5eec566c-7dbb-4912-b296-83b4f1064dd0" />
 
 Pressed ctrl + c to stop ping activity and closed Wireshark.
+
+<h2>Observing ssh, DHCP </h2>
+
+<img width="945" height="484" alt="image" src="https://github.com/user-attachments/assets/171b051f-628c-43e8-8690-057b0c19cdb8" />
+
+From windows-vm opened Wireshark and clicked on Ethernet
+
+<img width="359" height="79" alt="image" src="https://github.com/user-attachments/assets/68700a26-a297-4f87-9717-dbe1f2f1034d" />
+
+Clicked on the blue icon to start capturing Network traffic
+
+<img width="942" height="213" alt="image" src="https://github.com/user-attachments/assets/e9a1137e-f47b-43db-927b-56b6e497ee75" />
+
+Typed ssh in the search box to filter for ssh traffic only
+
+<img width="729" height="340" alt="image" src="https://github.com/user-attachments/assets/36c31839-b887-4e76-bfc2-05e2e927a65b" />
+
+In Microsoft Azure clicked on linux-vm and copied its private IP address
+
+<img width="1136" height="590" alt="image" src="https://github.com/user-attachments/assets/eebe4104-d56f-4063-83df-827db8d5e709" />
+
+Back in the windows-vm opened Powershell and typed ssh labuser@10.0.0.5 and pasted the IP address and pressed Enter.
+
+<img width="1127" height="607" alt="image" src="https://github.com/user-attachments/assets/df179745-ade6-41a6-8a04-22ba1dfc7e22" />
+
+Typed Yes to continue connecting to the linux-vm and ssh traffic has been captured in Wireshark
+
+<img width="710" height="485" alt="image" src="https://github.com/user-attachments/assets/d384bf8c-b545-4323-a99d-ce9d8a01db3f" />
+
+Entered the linux-vm's password (Cyberlab123!) and pressed enter
+
+<img width="663" height="482" alt="image" src="https://github.com/user-attachments/assets/3367e73f-e030-47ec-a4e4-0011edc2b317" />
+
+The prompt changed to labuser@linux-vm which shows connection to the linux-vm was successful
+
+<img width="638" height="480" alt="image" src="https://github.com/user-attachments/assets/fd52a485-f6a3-4bfc-8b97-dad08eb7498b" />
+
+Typed id and it shows the username (labuser). Typed hostname and it shows the virtual machine's name (linux-vm). Typed uname -a and it shows details about the operating system.
+
