@@ -91,7 +91,7 @@ Clicked start menu and searched for Remote Desktop Connection
 
 Pasted windows-vm Public IP address in Remote Desktop Connection and clicked connect
 
----------image-----
+<img width="1229" height="1280" alt="PICCCTURE" src="https://github.com/user-attachments/assets/b19b0a7d-0089-43f6-ae49-894e501d67aa" />
 
 Typed the username and password used to create the virtual machine (username: labuser  password: Cyberlab123!) and then clicked OK to connect
 
