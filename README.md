@@ -343,4 +343,20 @@ In Wireshark the network traffic was captured. The dhcp.bat script made the rele
 
 <img width="683" height="660" alt="image" src="https://github.com/user-attachments/assets/5474b0b1-7d61-4800-8473-573a9d47226e" />
 
-Typed ipconfig and it shows the new IP address but in this case its the same IP address that was released.
+Typed ipconfig in Powershell and it shows the new IP address and in this case its the same IP address that was released.
+
+<img width="368" height="69" alt="image" src="https://github.com/user-attachments/assets/73a5a818-61a0-499c-8794-61a4eb67961e" />
+
+Back in Wireshark filtered for dns traffic by typing dns in the box
+
+<img width="1126" height="663" alt="image" src="https://github.com/user-attachments/assets/c5c941ed-07f3-441a-a5b0-c7cb14c1b1e1" />
+
+In Powershell typed nslookup disney.com and all the network traffic was captured in Wireshark. nslookup shows the IP address of a domain name like google.com
+
+<img width="207" height="74" alt="image" src="https://github.com/user-attachments/assets/d81f3b8c-f71c-4fa7-b12a-1b1624417eee" />
+
+In Wireshark filtered for tcp.port == 3389 because RDP (Remote Desktop Protocol) uses that port.
+
+<img width="1031" height="378" alt="image" src="https://github.com/user-attachments/assets/aca911a8-cd0c-4110-8206-bdab827bcb79" />
+
+There is a lot of Network traffic showing because RDP (Remote Desktop Protocol) is constantly streaming a picture of the desktop screen from the server to the local machine (windows-vm).
