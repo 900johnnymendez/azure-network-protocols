@@ -339,4 +339,8 @@ Typed ./dhcp.bat and hit enter for Powershell to run the script
 
 <img width="1028" height="185" alt="image" src="https://github.com/user-attachments/assets/0a881bf5-6781-4275-b8db-d4bfbef62f09" />
 
-In Wireshark the network traffic was captured. The release packet was sent from the windows-vm (10.0.0.4) to the DHCP Server
+In Wireshark the network traffic was captured. The dhcp.bat script made the release packet to send from the windows-vm (10.0.0.4) to the DHCP Server with ipconfig /release command. After that, ipconfig /renew command executed to get a new IP address from DHCP and it shows that in Wireshark in the Discover packet with windows-vm having no IP address (0.0.0.0) broadcasting to DHCP (255.255.255.255) asking for an IP address. DHCP then offers a IP address, the windows-vm then requests for that IP address and finally DHCP acknowledges the request.
+
+<img width="683" height="660" alt="image" src="https://github.com/user-attachments/assets/5474b0b1-7d61-4800-8473-573a9d47226e" />
+
+Typed ipconfig and it shows the new IP address but in this case its the same IP address that was released.
