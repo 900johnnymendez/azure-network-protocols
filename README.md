@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
 </p>
 
-<h1> Configuring Network Security Groups (NSGs) and Examining Traffic Between Azure Virtual Machines</h1>
+<h1> Configuring Network Security Groups (NSGs) and Examining Network Protocols</h1>
 In this walkthrough, different types of network traffic to and from Azure Virtual Machines are examined using Wireshark. Network Security Groups are also configured to control network traffic. <br />
 
 <h2>Environments and Technologies Used</h2>
